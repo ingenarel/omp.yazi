@@ -1,3 +1,5 @@
+### this is my own custom config for omp.yazi
+
 # omp.yazi
 
 oh-my-posh prompt plugin for [Yazi](https://github.com/sxyazi/yazi) file manager.
