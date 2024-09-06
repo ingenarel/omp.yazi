@@ -27,7 +27,7 @@ return {
 				"--no-status",
 				"--no-exit-code",
 				"--config",
-                "C:\\Users\\Saad_Abdullah\\AppData\\Roaming\\yazi\\config\\plugins\\omp.yazi\\oh-my-posh-config.omp.json"
+                "~\\AppData\\Roaming\\yazi\\config\\plugins\\omp.yazi\\oh-my-posh-config.omp.json"
 			})
 			:cwd(args[1])
 			:output()
