@@ -1,6 +1,6 @@
 ### this is my own custom config for omp.yazi
 
-if using windows, you need to change the path in the init.lua file. it's in line 30.
+if using windows, switch to the windows branch using `git switch windows`
 
 ### original readme starts below
 
