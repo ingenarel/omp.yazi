@@ -1,5 +1,9 @@
 ### this is my own custom config for omp.yazi
 
+if using windows, you need to change the path in the init.lua file. it's in line 30.
+
+### original readme starts below
+
 # omp.yazi
 
 oh-my-posh prompt plugin for [Yazi](https://github.com/sxyazi/yazi) file manager.
