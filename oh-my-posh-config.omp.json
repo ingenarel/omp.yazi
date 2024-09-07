@@ -94,71 +94,7 @@
     },
     {
       "type": "rprompt",
-      "segments": [
-        {
-          "type": "node",
-          "style": "plain",
-          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
-          "properties": {
-            "display_mode": "files",
-            "fetch_package_manager": false,
-            "home_enabled": false
-          },
-          "background": "transparent",
-          "foreground": "p:green",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        },
-        {
-          "type": "go",
-          "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
-          "properties": {
-            "fetch_version": false
-          },
-          "background": "transparent",
-          "foreground": "p:blue",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        },
-        {
-          "type": "python",
-          "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-          "properties": {
-            "display_mode": "files",
-            "fetch_version": false,
-            "fetch_virtual_env": false
-          },
-          "background": "transparent",
-          "foreground": "p:yellow",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        },
-        {
-          "type": "shell",
-          "style": "plain",
-          "template": " {{ .Name }} ",
-          "background": "transparent",
-          "foreground": "p:white",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        },
-        {
-          "type": "time",
-          "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "background": "transparent",
-          "foreground": "p:white",
-          "Text": "",
-          "Duration": 0,
-          "NameLength": 0
-        }
-      ]
+      "segments": []
     }
   ],
   "transient_prompt": {
