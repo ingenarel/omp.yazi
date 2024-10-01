@@ -26,8 +26,6 @@ return {
 				"primary",
 				"--no-status",
 				"--no-exit-code",
-				"--config",
-                "~/.config/yazi/plugins/omp.yazi/oh-my-posh-config.omp.json",
 			})
 			:cwd(args[1])
 			:output()
